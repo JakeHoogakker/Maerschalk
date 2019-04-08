@@ -1,0 +1,48 @@
+$bgDefault      : #a97ea0;
+
+#categorymenu li {
+    margin: 5%;
+    height: 10%;
+}
+
+#categorymenu a {
+    color: white;
+}
+
+#categorymenu {
+    width: 20%;
+    height: 100vh;
+    background-color: $bgDefault;
+    position: fixed;
+    top: 100px;
+}
+
+.jumbotron {
+    float: right;
+    margin: 5%;
+}
+
+.activeButton {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+#menubar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#jumbotronContent {
+    margin-top: 10%;
+    margin-left: 25%;
+    float: right;
+    float: none;
+    position:static;
+}
+
+#jumbotronContent li {
+    list-style: none;
+}
+
+
